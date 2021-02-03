@@ -1,15 +1,15 @@
-loadbalancer ansible_host=10.0.0.120
+loadbalancer ansible_host=192.168.2.120
 
 [etcd]
-k8s-etcd-1 ansible_host=10.0.0.121
-k8s-etcd-2 ansible_host=10.0.0.122
-k8s-etcd-3 ansible_host=10.0.0.123
+k8s-etcd-1 ansible_host=192.168.2.121
+k8s-etcd-2 ansible_host=192.168.2.122
+k8s-etcd-3 ansible_host=192.168.2.123
 
 [master]
-k8s-master-1 ansible_host=10.0.0.121
-k8s-master-2 ansible_host=10.0.0.122
-k8s-master-3 ansible_host=10.0.0.123
+k8s-master-1 ansible_host=192.168.2.121
+k8s-master-2 ansible_host=192.168.2.122
+k8s-master-3 ansible_host=192.168.2.123
 
 [node]
-k8s-node-1 ansible_host=10.0.0.110
-k8s-node-2 ansible_host=10.0.0.111
+k8s-node-1 ansible_host=192.168.2.110
+k8s-node-2 ansible_host=192.168.2.111
